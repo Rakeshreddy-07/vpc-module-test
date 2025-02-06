@@ -76,3 +76,9 @@ variable "nat_tags" {
         Purpose = "assignment"
     }
 }
+
+variable "vpc_peering_tags" {
+  default = {
+    test = "vpc-peering"
+  }
+}

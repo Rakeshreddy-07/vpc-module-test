@@ -13,4 +13,6 @@ module "vpc" {
   database_subnet_cidr = var.database_subnet
   database_subnet_tags = var.database_tags
   nat_gw_tags = var.nat_tags
+  vpc_peering_tags = var.vpc_peering_tags
+  is_peering_required = true
 }
